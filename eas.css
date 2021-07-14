@@ -1,5 +1,11 @@
 
+body {
+    background-image: url('img/eas.jpg');
+    background-size: cover;
+}
+
 .container {
+    background-color: white;
     height: 600px;
     width: 600px;
     border-style: solid;
@@ -13,21 +19,28 @@
 
 .square {
     background-color: white;
+    transition: all 0.4s;
 }
 
 .btn-div {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 400px;
     width: 100px;
     margin: 0;
     position: absolute;
-    top: 20%;
-    left: 5%;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
 }
 
 .btn {
-    height: 50px;
+    height: 70px;
     width: 100px;
-    margin-bottom: 10px;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    transform: scale(1.3);
 }

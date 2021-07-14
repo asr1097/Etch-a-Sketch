@@ -19,6 +19,9 @@ function createGrid (size) {
     grid-template-rows: repeat(${size}, 1fr);
     `;
 
+    let squares = document.querySelectorAll('.square');
+    squares.forEach(square => square.addEventListener('mouseenter', colorSquare));
+
 }
 
 function resetGrid() {
@@ -102,8 +105,7 @@ document.querySelector('.black-btn').addEventListener('click', changeColor);
 document.querySelector('.shade-btn').addEventListener('click', changeColor);
 document.querySelector('.rainbow-btn').addEventListener('click', changeColor);
 
-let squares = document.querySelectorAll('.square');
-squares.forEach(square => square.addEventListener('mouseenter', colorSquare));
+
 
 
 
