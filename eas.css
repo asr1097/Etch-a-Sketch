@@ -11,6 +11,28 @@
     transform: translate(-50%, -50%);
 }
 
-.black-square {
-    background-color: black;
+.square {
+    background-color: white;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100px;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.btn {
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.parent {
+    display: flex;
+    justify-content: top;
 }
