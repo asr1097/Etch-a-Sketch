@@ -31,8 +31,3 @@
     width: 100px;
     margin-bottom: 10px;
 }
-
-.parent {
-    display: flex;
-    justify-content: top;
-}
