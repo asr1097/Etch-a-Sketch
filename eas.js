@@ -104,7 +104,6 @@ document.querySelector('.rainbow-btn').addEventListener('click', changeColor);
 
 let squares = document.querySelectorAll('.square');
 squares.forEach(square => square.addEventListener('mouseenter', colorSquare));
-squares.forEach(square => square.addEventListener('touchmove', colorSquare));
 
 
 
